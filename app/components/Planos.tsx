@@ -1,7 +1,7 @@
 "use client";
 
 const WA_LINK =
-  "https://wa.me/556199249128?text=Ol%C3%A1%2C+quero+usar+o+Simplou";
+  "https://wa.me/15556365962?text=Ol%C3%A1%2C+quero+usar+o+Simplou";
 
 const freeFeatures = [
   { text: "Registro ilimitado de corridas, entregas e custos", included: true },

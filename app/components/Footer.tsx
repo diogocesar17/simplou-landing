@@ -40,7 +40,7 @@ export default function Footer() {
 
           {/* Social / WhatsApp */}
           <a
-            href="https://wa.me/556199249128?text=Ol%C3%A1%2C+quero+usar+o+Simplou"
+            href="https://wa.me/15556365962?text=Ol%C3%A1%2C+quero+usar+o+Simplou"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-green-400 hover:text-green-300 text-sm font-medium transition-colors"
