@@ -5,7 +5,7 @@ import { useState } from "react";
 const faqs = [
   {
     q: "É realmente de graça? Não tem pegadinha?",
-    a: "É de graça de verdade. O plano gratuito não tem limite de tempo, não pede cartão de crédito e cobre tudo que a maioria dos motoristas precisa: registro de corridas, custos, lucro do dia, semana e mês, histórico por plataforma, custos fixos, 1 meta e 3 lembretes. O plano Pro existe pra quem quer ir além, com IA, áudio e análise avançada — mas é opcional.",
+    a: "É de graça de verdade. O plano gratuito não pede cartão de crédito e cobre tudo que a maioria dos motoristas precisa: registro de corridas, custos, lucro do dia, semana e mês, histórico por plataforma, custos fixos, 1 meta e 3 lembretes. O plano Pro existe pra quem quer ir além, com IA, áudio e análise avançada — mas é opcional.",
   },
   {
     q: "Precisa instalar algum aplicativo?",
@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "Posso cancelar o Pro quando quiser?",
-    a: "Sim. Não tem fidelidade, não tem multa. Se cancelar, continua com acesso ao plano gratuito — que já é completo para o uso básico. Seus dados e histórico ficam salvos mesmo no plano gratuito.",
+    a: "Sim. Não tem fidelidade, não tem multa. Se cancelar, você perde as funcionalidades Pro mas seus dados e histórico ficam salvos. Você pode reativar a qualquer momento.",
   },
   {
     q: "O bot entende mensagem de áudio? Tenho dificuldade para digitar enquanto dirijo.",

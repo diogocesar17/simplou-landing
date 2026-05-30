@@ -74,7 +74,7 @@ export default function Planos() {
                 <span className="text-slate-500">/mês</span>
               </div>
               <p className="text-slate-600 text-sm mt-2">
-                Para sempre grátis. Sem cartão de crédito.
+                Sem cartão de crédito para começar.
               </p>
             </div>
 
