@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 const WA_LINK =
-  "https://wa.me/5500000000000?text=Ol%C3%A1%2C+quero+usar+o+Simplou";
+  "https://wa.me/556199249128?text=Ol%C3%A1%2C+quero+usar+o+Simplou";
 
 const chatMessages = [
   { type: "sent", text: "fiz 280 no uber hoje" },
