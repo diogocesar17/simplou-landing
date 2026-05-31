@@ -1,3 +1,4 @@
+import AutoScrollDemo from "./components/AutoScrollDemo";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import DemoWhatsApp from "./components/DemoWhatsApp";
@@ -15,6 +16,7 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <main className="min-h-screen">
+      <AutoScrollDemo />
       <Navbar />
       <Hero />
       <DemoWhatsApp />
