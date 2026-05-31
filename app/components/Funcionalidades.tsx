@@ -107,10 +107,10 @@ export default function Funcionalidades() {
             ⚡ Apenas no Pro
           </div>
           <h3 className="text-white font-bold text-xl mb-4">
-            Análise por IA + Previsão de ganhos
+            Controle total + relatórios completos
           </h3>
           <p className="text-slate-400 text-sm max-w-lg mx-auto mb-6">
-            No plano Pro, uma IA analisa seus padrões e sugere os melhores horários e plataformas para trabalhar. Também faz previsão de quanto você vai ganhar no mês.
+            No plano Pro você tem histórico ilimitado, relatório em PDF/CSV, metas simultâneas e registro por áudio — tudo para manter seu controle financeiro sem digitar nada.
           </p>
           <div className="flex flex-wrap justify-center gap-3 text-sm">
             {proFeatures.map((f, i) => (
@@ -129,11 +129,10 @@ export default function Funcionalidades() {
 }
 
 const proFeatures = [
-  "🤖 Análise de padrões por IA",
-  "📈 Previsão de ganhos",
-  "💡 Sugestões de rentabilidade",
   "🎙️ Registro por áudio",
-  "📄 Relatório CSV",
+  "📄 Relatório CSV e PDF",
   "🎯 Metas simultâneas",
-  "💬 Assistente financeiro",
+  "💬 Perguntas livres ao assistente",
+  "📊 Histórico ilimitado",
+  "📈 Resumo detalhado por plataforma",
 ];

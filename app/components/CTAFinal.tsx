@@ -22,15 +22,19 @@ export default function CTAFinal() {
           <span className="text-3xl">💰</span>
         </div>
 
+        <div className="inline-flex items-center gap-2 bg-green-500/20 border border-green-500/30 text-green-400 text-xs font-bold px-3 py-1.5 rounded-full mb-6">
+          <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
+          Vagas abertas — fase beta
+        </div>
+
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-6">
-          Começa agora.
-          <br />
-          <span className="text-green-400">É de graça e leva 30 segundos.</span>
+          Comece a controlar seu lucro real hoje.
         </h2>
 
         <p className="text-lg text-slate-400 mb-10 max-w-xl mx-auto">
-          Amanhã você vai saber exatamente quanto lucrou, quanto gastou e se o dia valeu a pena.
-          Sem app, sem complicação — só no WhatsApp.
+          Sem planilhas.<br />
+          Sem complicação.<br />
+          Direto pelo WhatsApp.
         </p>
 
         {/* Main CTA */}
@@ -41,7 +45,7 @@ export default function CTAFinal() {
           className="pulse-green inline-flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold px-10 py-5 rounded-xl text-lg transition-all duration-200 shadow-lg shadow-green-500/30 mb-6"
         >
           <WhatsAppIcon />
-          Começar grátis no WhatsApp
+          Quero participar da fase beta
         </a>
 
         {/* Reassurances */}
@@ -62,7 +66,7 @@ export default function CTAFinal() {
             <svg className="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
             </svg>
-            Cancela quando quiser
+            Acesso gratuito na fase beta
           </span>
         </div>
 

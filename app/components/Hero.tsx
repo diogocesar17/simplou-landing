@@ -109,21 +109,20 @@ export default function Hero() {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 bg-green-500/10 border border-green-500/20 text-green-400 text-xs font-semibold px-3 py-1.5 rounded-full mb-6">
               <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse" />
-              100% grátis para começar
+              Fase beta — vagas limitadas
             </div>
 
             {/* Headline */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight tracking-tight mb-6">
-              Você sabe quanto{" "}
-              <span className="text-green-400">lucrou de verdade</span>{" "}
-              hoje?
+              Descubra quanto realmente{" "}
+              <span className="text-green-400">sobra do seu dia</span>{" "}
+              de trabalho.
             </h1>
 
             {/* Subheadline */}
             <p className="text-lg sm:text-xl text-slate-300 leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
-              O Simplou registra seus ganhos e custos pelo WhatsApp e mostra seu{" "}
-              <strong className="text-white">lucro real</strong> — depois de gasolina,
-              pedágio, manutenção e tudo mais. Sem app, sem cadastro, só manda mensagem.
+              Registre ganhos, combustível, alimentação e despesas pelo WhatsApp e acompanhe seu{" "}
+              <strong className="text-white">lucro real</strong> sem planilhas e sem aplicativos complicados.
             </p>
 
             {/* CTA buttons */}
@@ -136,6 +135,12 @@ export default function Hero() {
               >
                 <WhatsAppIcon size="w-6 h-6" />
                 Começar grátis no WhatsApp
+              </a>
+              <a
+                href="#demo"
+                className="flex items-center justify-center gap-2 bg-white/10 hover:bg-white/15 text-white font-semibold px-8 py-4 rounded-xl text-lg transition-all duration-200 border border-white/20"
+              >
+                Ver demonstração
               </a>
             </div>
 

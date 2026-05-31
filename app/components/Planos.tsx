@@ -55,11 +55,15 @@ export default function Planos() {
             Planos
           </span>
           <h2 className="text-3xl sm:text-4xl font-black text-slate-900 mb-4">
-            Começa grátis, evolui quando quiser
+            Comece grátis. Sem cartão de crédito.
           </h2>
           <p className="text-lg text-slate-600 max-w-xl mx-auto">
-            O plano gratuito já resolve o básico. O Pro é para quem quer controle total e análise por IA.
+            O plano gratuito já resolve o controle do dia a dia. O Pro é para quem quer histórico completo e relatórios.
           </p>
+          <div className="mt-4 inline-flex items-center gap-2 bg-green-50 border border-green-200 text-green-700 text-sm font-semibold px-4 py-2 rounded-full">
+            <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
+            Fase beta — participe gratuitamente
+          </div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -107,7 +111,7 @@ export default function Planos() {
           <div className="bg-slate-900 rounded-2xl p-8 flex flex-col relative overflow-hidden border-2 border-green-500">
             {/* Popular badge */}
             <div className="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">
-              MAIS POPULAR
+              EM BREVE
             </div>
 
             {/* Decorative gradient */}
@@ -155,7 +159,7 @@ export default function Planos() {
         {/* Value prop */}
         <div className="mt-12 text-center">
           <p className="text-slate-600 text-sm">
-            💡 <strong className="text-slate-800">Pense assim:</strong> Se o Simplou te ajudar a descobrir que 2 horas por semana não valem a pena e você as aproveitar melhor, já pagou o Pro com folga.
+            💡 <strong className="text-slate-800">Pense assim:</strong> Se o Simplou te ajudar a descobrir que 2 horas por semana não valem a pena e você as aproveitar melhor, o controle financeiro já pagou o esforço de cadastrar.
           </p>
         </div>
       </div>
