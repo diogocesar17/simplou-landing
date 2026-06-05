@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 
 const WA_LINK =
-  "https://wa.me/556199249129?text=Ol%C3%A1%2C+quero+usar+o+Simplou";
+  "https://wa.me/556199249128?text=Ol%C3%A1%2C+quero+usar+o+Simplou";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
