@@ -73,10 +73,11 @@ export default function PrivacidadePage() {
                   {[
                     "Nome e número de telefone do WhatsApp — para identificar sua conta.",
                     "Lançamentos financeiros que você registra (receitas e despesas) — para calcular seu lucro real.",
-                    "Metas financeiras diárias que você define.",
+                    "Metas financeiras (diária, semanal e mensal) que você define.",
+                    "Perfil de motorista — tipo de trabalho, veículo, consumo de combustível e plataformas utilizadas.",
+                    "Custos fixos mensais ou anuais que você cadastra (seguro, IPVA, manutenção etc.).",
                     "Configurações de cartões de crédito/débito cadastrados no bot.",
                     "Lembretes de pagamento que você cria.",
-                    "Tipo de trabalho informado (motorista, entregador ou ambos).",
                     "Preferência de moeda (BRL, EUR, USD, GBP).",
                     "Histórico de uso — quais comandos você utiliza e quando.",
                   ].map((item) => (
@@ -134,14 +135,43 @@ export default function PrivacidadePage() {
                 <h3 className="text-lg font-semibold text-white mb-3">
                   3. Com quem compartilhamos
                 </h3>
-                <p className="leading-relaxed">
+                <p className="leading-relaxed mb-5">
                   Não vendemos, alugamos nem compartilhamos seus dados pessoais
                   com terceiros para fins comerciais. Seus dados podem ser
-                  processados por provedores de infraestrutura (hospedagem e
-                  banco de dados) exclusivamente para viabilizar o
-                  funcionamento do serviço, sempre sob obrigação de
-                  confidencialidade. Podemos divulgar informações quando
-                  exigido por lei ou ordem judicial.
+                  processados pelos seguintes tipos de provedores,
+                  exclusivamente para viabilizar o funcionamento do serviço e
+                  sempre sob obrigação de confidencialidade:
+                </p>
+                <div className="space-y-3">
+                  <div className="bg-slate-800/60 border border-slate-700 rounded-xl p-4">
+                    <p className="text-sm font-medium text-white mb-1">
+                      Infraestrutura (hospedagem e banco de dados)
+                    </p>
+                    <p className="text-sm leading-relaxed text-slate-400">
+                      Servidores que armazenam seus dados e mantêm o serviço
+                      em operação.
+                    </p>
+                  </div>
+                  <div className="bg-slate-800/60 border border-slate-700 rounded-xl p-4">
+                    <p className="text-sm font-medium text-white mb-1">
+                      Provedores de inteligência artificial
+                    </p>
+                    <p className="text-sm leading-relaxed text-slate-400">
+                      Determinadas funcionalidades utilizam provedores de
+                      inteligência artificial para processar solicitações dos
+                      usuários — como a categorização automática de
+                      lançamentos financeiros. O conteúdo das mensagens pode
+                      ser transmitido a esses provedores exclusivamente para
+                      fins de processamento, sendo vedado o uso para qualquer
+                      outra finalidade. Esses provedores podem estar
+                      localizados fora do Brasil, o que caracteriza
+                      transferência internacional de dados nos termos da LGPD.
+                    </p>
+                  </div>
+                </div>
+                <p className="mt-4 text-sm leading-relaxed text-slate-400">
+                  Podemos divulgar informações quando exigido por lei ou ordem
+                  judicial.
                 </p>
               </div>
 
