@@ -126,7 +126,7 @@ export default function Planos() {
                 <span className="text-slate-400">,90/mês</span>
               </div>
               <p className="text-slate-400 text-sm mt-2">
-                Menos de R$ 0,70 por dia. Cancele quando quiser.
+                Preço estimado — será definido após o beta.
               </p>
             </div>
 
@@ -141,14 +141,9 @@ export default function Planos() {
               ))}
             </ul>
 
-            <a
-              href={WA_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="relative z-10 w-full flex items-center justify-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold py-4 rounded-xl transition-colors text-center shadow-lg shadow-green-500/25"
-            >
-              Assinar o Pro
-            </a>
+            <div className="relative z-10 w-full flex items-center justify-center gap-2 bg-slate-700 text-slate-400 font-bold py-4 rounded-xl text-center cursor-not-allowed select-none">
+              Em breve — disponível após o beta
+            </div>
 
             <p className="text-slate-500 text-xs text-center mt-3 relative z-10">
               Comece com o grátis e upgrade quando quiser

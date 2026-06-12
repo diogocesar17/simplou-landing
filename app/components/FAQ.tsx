@@ -5,7 +5,7 @@ import { useState } from "react";
 const faqs = [
   {
     q: "É realmente de graça? Não tem pegadinha?",
-    a: "É de graça de verdade. O plano gratuito não pede cartão de crédito e cobre tudo que a maioria dos motoristas precisa: registro de corridas, custos, lucro do dia, semana e mês, histórico por plataforma, custos fixos, 1 meta e 3 lembretes. O plano Pro existe pra quem quer ir além, com IA, áudio e análise avançada — mas é opcional.",
+    a: "Durante a fase beta, sim — sem pegadinha e sem cartão de crédito. Todas as funcionalidades estão disponíveis gratuitamente enquanto durar o beta, incluindo áudio e análise por IA. Após o beta, o Simplou terá um plano pago com acesso completo. Quem participar do beta terá condições especiais.",
   },
   {
     q: "Precisa instalar algum aplicativo?",
@@ -20,12 +20,8 @@ const faqs = [
     a: "Sim. Seus dados de ganhos e custos são armazenados com criptografia e nunca são compartilhados com terceiros. Você pode solicitar a exclusão de todos os seus dados a qualquer momento mandando uma mensagem para o bot ou pelo e-mail contato@simplou.com.",
   },
   {
-    q: "Posso cancelar o Pro quando quiser?",
-    a: "Sim. Não tem fidelidade, não tem multa. Se cancelar, você perde as funcionalidades Pro mas seus dados e histórico ficam salvos. Você pode reativar a qualquer momento.",
-  },
-  {
     q: "O bot entende mensagem de áudio? Tenho dificuldade para digitar enquanto dirijo.",
-    a: "O envio por áudio está disponível no plano Pro. No plano gratuito, você digita mensagens curtas como \"fiz 200 uber\" ou \"abasteci 150\" — é rápido e funciona bem. No Pro, você manda o áudio e o bot transcreve e registra tudo automaticamente.",
+    a: "Sim! Durante o beta você pode mandar áudio e o bot transcreve e registra automaticamente. Também é possível enviar foto de comprovantes — o bot lê e registra o valor. Após o beta, esses recursos farão parte do plano pago.",
   },
 ];
 

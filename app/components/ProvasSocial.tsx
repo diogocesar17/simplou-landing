@@ -23,7 +23,7 @@ const testimonials = [
     avatar: "MV",
     avatarBg: "bg-purple-500",
     stars: 5,
-    text: "Eu tentei planilha no Google, aplicativo de finanças, nada ficava. Com o Simplou é diferente porque eu mando a mensagem enquanto tô esperando passageiro. Natural demais. Beta tá incrível, mal posso esperar o Pro.",
+    text: "Eu tentei planilha no Google, aplicativo de finanças, nada ficava. Com o Simplou é diferente porque eu mando a mensagem enquanto tô esperando passageiro. Natural demais. Beta tá incrível.",
     highlight: "mando a mensagem enquanto tô esperando passageiro",
   },
 ];

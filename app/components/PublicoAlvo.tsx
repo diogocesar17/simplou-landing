@@ -78,7 +78,7 @@ export default function PublicoAlvo() {
             Fase beta aberta
           </div>
           <h3 className="text-white font-black text-2xl mb-3">
-            Estamos selecionando os primeiros 50 usuários para testar gratuitamente.
+            Estamos selecionando os primeiros motoristas para testar gratuitamente.
           </h3>
           <p className="text-slate-400 mb-6 max-w-lg mx-auto">
             Seja um dos primeiros motoristas a usar o Simplou. Acesso completo, sem custo, durante toda a fase beta.
