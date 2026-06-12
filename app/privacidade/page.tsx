@@ -42,7 +42,7 @@ export default function PrivacidadePage() {
             Política de Privacidade e Termos de Uso
           </h1>
           <p className="mt-3 text-slate-400 text-sm">
-            Versão 1.0 &mdash; Vigente a partir de 1º de junho de 2026
+            Versão 1.1 &mdash; Vigente a partir de 11 de junho de 2026
           </p>
         </div>
 
@@ -180,11 +180,15 @@ export default function PrivacidadePage() {
                   4. Por quanto tempo guardamos
                 </h3>
                 <p className="leading-relaxed">
-                  Mantemos seus dados enquanto sua conta estiver ativa. Após a
-                  exclusão da conta, os dados pessoais são removidos em até{" "}
-                  <strong className="text-white">30 dias</strong>. Registros
-                  anonimizados e agregados podem ser mantidos por prazo
-                  indeterminado para fins estatísticos.
+                  Mantemos seus dados enquanto sua conta estiver ativa. Após a{" "}
+                  <strong className="text-white">exclusão da conta</strong>, os
+                  dados pessoais são removidos imediatamente. Após a{" "}
+                  <strong className="text-white">revogação do consentimento</strong>,
+                  os dados são preservados por até{" "}
+                  <strong className="text-white">30 dias</strong> para permitir
+                  a reativação da conta, sendo removidos permanentemente após
+                  esse prazo. Registros anonimizados e agregados podem ser
+                  mantidos por prazo indeterminado para fins estatísticos.
                 </p>
               </div>
 
@@ -199,8 +203,12 @@ export default function PrivacidadePage() {
                 <div className="space-y-3">
                   {[
                     {
+                      direito: "Revogar o consentimento",
+                      como: 'Envie o comando "revogar consentimento" no bot. Sua conta é desativada e os dados preservados por 30 dias — você pode reativar nesse período.',
+                    },
+                    {
                       direito: "Excluir sua conta e todos os seus dados",
-                      como: 'Envie o comando "excluir minha conta" no bot.',
+                      como: 'Envie o comando "excluir minha conta" no bot. Os dados são removidos imediatamente e de forma irreversível.',
                     },
                     {
                       direito: "Exportar seus dados",
@@ -377,7 +385,7 @@ export default function PrivacidadePage() {
           {/* ── RODAPÉ ── */}
           <div className="border-t border-slate-800 pt-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <p className="text-xs text-slate-500">
-              Versão 1.0 &mdash; Vigente a partir de 1º de junho de 2026
+              Versão 1.1 &mdash; Vigente a partir de 11 de junho de 2026
             </p>
             <Link
               href="/"
